@@ -1,0 +1,26 @@
+/* ------- Footer Styles -------*/
+.footer-wrapper{
+    width: 100%;
+    background-color: $bg-lightblue;
+    color: $bg-white;
+    min-height: 10em;
+    text-shadow: 1px 1px 0 rgba(0,0,0, 0.3);
+    font-size: 1.125em;
+}
+
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.credits{
+    margin: 2em 0 0 0;
+    padding: 2em;
+    text-align: center;
+    display: block;
+}
+
+.credits-link{
+    color: white;
+}

@@ -1,0 +1,64 @@
+/* ------- Header Styles -------*/
+
+.header-wrapper{
+    width: 100%;
+    background-color: $bg-lightblue;
+    box-shadow: 0 5px 2px rgba(0,0,0, 0.3);
+}
+
+.header{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.branding-title{
+    font-family: 'Dancing Script', Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+    display: inline-block;
+    margin: 0.25em 0.5em;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 rgba(0,0,0, 0.3);
+}
+
+.branding-link{
+    color: $bg-white;
+    text-decoration: none;
+}
+
+.menu{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 1.5em;
+}
+
+.menu-title{
+    display: none;
+}
+
+.menu-list{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+
+.menu-list-item{
+    display: inline-block;
+    font-size: 1.25em;
+    text-shadow: 1px 1px 0 rgba(0,0,0, 0.3);
+    margin-right: 1em;
+}
+
+.menu-list-link{
+    color: $bg-white;
+    text-decoration: none;
+    padding: 0.25em 0.5em;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
+}
+
+.menu-list-link:hover{
+    background-color: $bg-darkblue;
+    transition: background-color 0.5s ease;
+}

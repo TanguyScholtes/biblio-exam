@@ -1,0 +1,109 @@
+/* ------------ External Imports ------------ */
+@import "normalize.min";    //Normalize
+@import "main.min";         //Cross-Browsers Baseline
+
+
+/* ------- Colors ------- */
+$bg-grey : #3a3a3a;
+$bg-lightgrey: #636363;
+$bg-white : #f5f5f5;
+$bg-lightblue : #40B2B5;
+$bg-darkblue : #349294;
+$bg-very-lightgrey: #929292;
+
+
+/* ------- Fonts ------- */
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+
+
+/* ------- General Styles -------*/
+html{
+    background-color: $bg-grey;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ------- Header Styles -------*/
+@import "header.min";
+
+
+/* ------- Footer Styles -------*/
+@import "footer.min";
+
+
+/* ------- Main content Styles -------*/
+
+.content-wrapper{
+    overflow: auto;
+    display: block;
+    min-height: 500px;
+}
+
+.content{
+    background-color: $bg-white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    color: $bg-grey;
+    position: relative;
+    overflow: auto;
+    display: block;
+    min-height: 500px;
+}
+
+.content-title{
+    margin: 0 0 1em 0;
+    padding-top: 0.5em;
+    text-shadow: 1px 1px 0 rgba(0,0,0, 0.3);
+    font-weight: 200;
+}
+
+.content-list{
+    list-style-type: none;
+}
+
+.content-list-link{
+    font-size: 1.125em;
+    color: $bg-darkblue;
+    text-decoration: none;
+}
+
+.content-list-link:hover{
+    color: $bg-lightblue;
+    text-decoration: underline;
+    text-shadow: 1px 1px 0 rgba(0,0,0, 0.1);
+}
+
+.admin-link{
+    color: lighten($bg-grey, 20%);
+    margin-left: 0.25em;
+}
+
+.admin-link:hover{
+    color: lighten($bg-grey, 45%);
+}
+
+
+/* ------- Forms Styles -------*/
+
+label{
+    display: inline-block;
+    margin: 0.5em 1em 0.5em 0;
+}
+
+input[type="submit"]{
+    margin: 3em 0;
+    padding: 0.5em 1.5em;
+}
+
+textarea{
+    margin: 0.5em 1em 0.5em 0;
+    width: 50em;
+    height: 25em;
+}

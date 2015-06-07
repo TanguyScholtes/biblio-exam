@@ -1,0 +1,17 @@
+{
+    "name": "Tanguy/biblio",
+    "description": "Online library for Mr. Vilain course - HEPL 2015-2016",
+    "autoload": {
+        "psr-4": {
+            "Models\\": "models/",
+            "Controllers\\": "controller/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TanguyScholtes",
+            "email": "soultaker720@hotmail.com"
+        }
+    ],
+    "require": {}
+}
